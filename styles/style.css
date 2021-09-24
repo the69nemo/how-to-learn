@@ -9,6 +9,8 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*===header===*/
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -70,6 +72,69 @@
   position: absolute;
   right: 0;
   top: 64px;
+}
+
+/*===content===*/
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+/*===description===*/
+
+.description{
+  height: 100vh;
+  min-height: 500px;
+  max-height: 532px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.content__description{
+  margin-top: 100px;
+}
+
+.two-columns{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief{
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  align-self: flex-start;
+}
+
+.brief__link{
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.two-columns__main-text{
+  min-width: 784px;
+  width: 80%;
+}
+
+.two-columns__paragraph{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph_margin-bottom{
+  margin-bottom: 30px;
+}
+
+.two-columns__span-accent{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /* и элемента с модификатором вида ключ-значение */
