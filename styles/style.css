@@ -137,6 +137,81 @@
   font-weight: bold;
 }
 
+/*===digits===*/
+
+.digits{
+  height: 100vh;
+  min-height: 560px;
+  max-height: 592px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content__digits{
+  margin-bottom: 100px;
+}
+
+.section-title{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-title_margin{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.section-subtitle{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.section-subtitle_with-no-ident{
+  margin: 0;
+  padding: 0;
+}
+
+.table{
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.table__cell{
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__heading_margin-bottom{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.table__text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__text_margin-bottom{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.table__text_no-margin{
+  margin: 0;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
