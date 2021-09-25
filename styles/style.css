@@ -62,6 +62,8 @@
   position: absolute;
   bottom: 0;
   right: 0;
+  width: 705px;
+  height: 608px;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -156,10 +158,10 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  margin: 0;
 }
 
 .section-title_margin{
-  margin-top: 0;
   margin-bottom: 20px;
 }
 
@@ -167,9 +169,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-}
-
-.section-subtitle_with-no-ident{
   margin: 0;
   padding: 0;
 }
@@ -190,10 +189,10 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .table__heading_margin-bottom{
-  margin-top: 0;
   margin-bottom: 20px;
 }
 
@@ -201,15 +200,70 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .table__text_margin-bottom{
-  margin-top: 0;
   margin-bottom: 20px;
 }
 
-.table__text_no-margin{
+/*===feynman===*/
+
+.feynman{
+  height: 100vh;
+  min-height: 800px;
+  max-height: 892px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #f2f2f2;
+}
+
+.feynman-title{
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
   margin: 0;
+}
+
+.feynman-title_margin-top{
+  margin-top: 100px;
+}
+
+.feynman-subtitle{
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  z-index: 1;
+  margin: 0;
+}
+
+.feynman-subtitle_margin-top{
+  margin-top: 70px;
+}
+
+.feynman-link{
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.feynman-img{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 637px;
+  width: 867px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
