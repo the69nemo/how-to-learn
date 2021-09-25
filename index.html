@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Научиться учиться">
+  <meta name="keywords" content="О том как научиться учиться">
+  <meta name="title" content="Научиться учиться">
+  <meta name="author" content="Мицук Сергей">
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/style.css">
   <title>Научиться учиться</title>
@@ -13,7 +17,7 @@
       <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип">
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header_subtitle">
-        Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link">Узнать &rarr;</a>
+        Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link" title="Узнать">Узнать &rarr;</a>
       </p>
       <div class="header__square-pic"></div>
       <img class="header__main-illustrarion" src="./images/header-image.png" alt="Грустный мальчик и собака">
@@ -23,7 +27,7 @@
 
       <section class="description content__description">
         <div class="two-columns">
-          <h2 class="two-columns__brief"><a class="brief__link" href="#">Главные проблемы в обучении</a></h2>
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph two-columns__paragraph_margin-bottom">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
             <p class="two-columns__paragraph two-columns__paragraph_margin-bottom"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
@@ -77,7 +81,7 @@
       <section class="feynman">
         <h2 class="feynman-title feynman-title_margin-top">Метод Фейнмана</h2>
         <h3 class="feynman-subtitle feynman-subtitle_margin-top">Выучить и не забыть.</h3>
-        <a class="feynman-link" href="#">Подробнее &rarr;</a>
+        <a class="feynman-link" href="#" title="Подробнее">Подробнее &rarr;</a>
         <img class="feynman-img" src="./images/feynman.png" alt="Ричард Фейнман">
       </section>
 
@@ -127,9 +131,32 @@
           </div>
           <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="синий треугольник">
       </section>
-    </main>
-    <footer class="footer">
 
+    </main>
+
+    <footer class="footer footer_with-padding">
+      <div class="footer__columns">
+        <div class="footer__column footer__column_copyright">
+          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип">
+          <p class="footer__author">&copy 2021. Мицук Сергей</p>
+        </div>
+        <div class="footer__column footer__column_info">
+          <h3 class="column-heading">О Практикуме</h3>
+            <div class="footer__column-links footer__column-links_margin">
+              <a class="footer__column-link" href="#" title="Главная">Главная</a>
+              <a class="footer__column-link" href="#" title="Концепция">Концепция</a>
+              <a class="footer__column-link" href="#" title="Наставники">Наставники</a>
+            </div>
+        </div>
+        <div class="footer__column footer__column_social">
+          <h3 class="column-heading">Соцсети</h3>
+          <div class="footer__column-links footer__column-links_margin">
+            <a class="footer__column-link" href="#" title="Facebook"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook">Facebook</a>
+            <a class="footer__column-link" href="#" title="Вконтакте"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Вконтакте">Вконакте</a>
+            <a class="footer__column-link" href="#" title="Instagram"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram">Instagram</a>
+          </div>
+        </div>
+      </div>
     </footer>
   </div>
 </body>
