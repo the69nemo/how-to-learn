@@ -87,7 +87,7 @@
   top: 64px;
 }
 
-.block__element_rotation{
+.rotation{
   animation: rotation 20s infinite;
 }
 
